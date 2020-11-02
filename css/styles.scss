@@ -6,7 +6,7 @@
 a,
 a:focus,
 a:hover {
-  color: #fff;
+  color: white;
 }
 
 /* Custom default button */
@@ -27,7 +27,14 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #333;
+
+  font-family: poppins, arial, sans-serif;
+
+  background: url(../images/lolly.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 body {
@@ -40,6 +47,18 @@ body {
 
 .cover-container {
   max-width: 42em;
+}
+
+main {
+  background-color: #ffb400;
+  border-radius: 10px;
+  border-color: #ffb400;
+  border-style: solid;
+}
+
+h1 {
+  padding-top: 30px;
+
 }
 
 

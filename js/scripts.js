@@ -71,3 +71,5 @@ let resetButton;
 
       randomNumber = Math.floor(Math.random() * 100) + 1;
     }
+
+    guessSubmit.addEventListener('click', checkGuess);
